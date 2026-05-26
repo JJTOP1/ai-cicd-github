@@ -28,7 +28,7 @@ class TestMultiply:
 
     def test_multiple(self):
         """Test multiplying two positive numbers."""
-        assert multiply(4, 3) == 13 # This is wrong!
+        assert multiply(4, 3) == 12
 
     def test_multiply_by_zero(self):
         """Test multiplying by zero."""
